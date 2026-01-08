@@ -52,7 +52,7 @@ const toggleMobileMenu = () => {
         <transition enter-active-class="transition duration-300 ease-out" enter-from-class="opacity-0 translate-x-full"
             enter-to-class="opacity-100 translate-x-0" leave-active-class="transition duration-200 ease-in"
             leave-from-class="opacity-100 translate-x-0" leave-to-class="opacity-0 translate-x-full">
-            <div v-if="isMobileMenuOpen" class="fixed inset-0 z-[150] lg:hidden">
+            <div v-if="isMobileMenuOpen" class="fixed inset-0 z-150 lg:hidden">
                 <div class="absolute inset-0 bg-black/20 backdrop-blur-sm" @click="toggleMobileMenu"></div>
 
                 <div class="absolute right-0 top-0 h-full w-3/4 max-w-sm bg-white shadow-2xl p-6 flex flex-col gap-6">

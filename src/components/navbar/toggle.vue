@@ -6,8 +6,7 @@
                 ? 'bg-white '
                 : 'bg-blue-100 '">
             <div class="flex cursor-pointer items-center gap-2">
-                <img class="leading-none w-[20px] h-[20px] shadow rounded-full object-cover" :src="selectedLang.flag"
-                    alt="" />
+                <img class="leading-none w-5 h-5 shadow rounded-full object-cover" :src="selectedLang.flag" alt="" />
                 <span class="font-medium font-inter text-gray-800">{{ selectedLang.code }}</span>
             </div>
 
@@ -31,7 +30,7 @@
                             : 'bg-transparent text-gray-700 hover:bg-gray-50'">
 
                         <div class="flex items-center gap-2">
-                            <img class="w-[24px] h-[16px] object-cover rounded-sm" :src="lang.flag" />
+                            <img class="w-6 h-4 object-cover rounded-sm" :src="lang.flag" />
                             <span class="font-medium font-inter">
                                 {{ lang.code }}
                             </span>
