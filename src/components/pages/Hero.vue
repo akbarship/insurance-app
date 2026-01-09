@@ -54,7 +54,7 @@ const removeCountry = (name) => {
 </script>
 
 <template>
-    <section class="relative lg:w-[85%] w-full lg:mx-auto m-0 min-h-auto lg:min-h-150  pb-8 lg:pb-0">
+    <section class="relative  lg:w-[85%] w-full lg:mx-auto m-0 min-h-auto lg:min-h-150  pb-0 lg:pb-0">
         <div class="max-w-325 mx-auto px-0 lg:px-4 pt-8 lg:pt-32 relative z-10">
 
             <div class="max-w-2xl lg:text-left">
@@ -145,7 +145,7 @@ const removeCountry = (name) => {
 
 
         <div
-            class="relative lg:absolute mt-4 lg:mt-0 bottom-10 right-0 w-full flex invisible lg:visible lg:w-[50%] h-[240px] sm:h-[300px] lg:h-full pointer-events-none select-none justify-center lg:justify-end">
+            class="relative lg:absolute mt-4 lg:mt-0 bottom-10 right-0 w-full lg:flex hidden lg:w-[50%] h-60 sm:h-75px lg:h-full pointer-events-none select-none justify-center lg:justify-end">
             <img src="@/assets/banner.webp" alt="Insurance Illustration"
                 class="w-[85%] lg:w-[90%] h-full object-contain object-center lg:object-right" />
         </div>

@@ -9,6 +9,8 @@
             <div class="max-w-325 mx-auto px-4 py-8">
                 <router-view />
             </div>
+            <slider />
+
         </main>
 
         <!-- Footer -->
@@ -18,4 +20,5 @@
 
 <script setup>
 import navbar from '@/components/navbar/navbar.vue';
+import slider from '@/components/slider.vue';
 </script>
