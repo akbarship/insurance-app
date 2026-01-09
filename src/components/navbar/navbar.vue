@@ -11,7 +11,7 @@ const toggleMobileMenu = () => {
 </script>
 
 <template>
-    <header class="w-full lg:min-h-24.5 sticky top-0 z-100">
+    <header class="w-full lg:min-h-24.5  top-0 z-100">
         <div class="max-w-325 mx-auto px-4 py-4">
             <div class="flex items-center justify-between h-12">
                 <div class="flex items-center gap-3">

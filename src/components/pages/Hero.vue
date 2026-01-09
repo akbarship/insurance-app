@@ -59,13 +59,13 @@ const removeCountry = (name) => {
 
             <div class="max-w-2xl lg:text-left">
                 <h1 class="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-900 leading-tight font-inter">
-                    Первый страховой <br class="hidden sm:block" />
-                    маркетплейс в Узбекистане
+                    O'zbekistondagi birinchi <br class="hidden sm:block" />
+                    sug'urta marketpleysi
                 </h1>
 
                 <p
                     class="mt-3 lg:mt-4 text-sm lg:text-lg text-gray-400 lg:text-gray-500 max-w-lg lg:mx-0 leading-relaxed font-inter">
-                    Онлайн оформление страховых полисов без головной боли и волокиты
+                    Qog‘ozbozlik va bosh og‘riqsiz sug‘urta polislarini onlayn rasmiylashtiring
                 </p>
             </div>
 
@@ -107,7 +107,7 @@ const removeCountry = (name) => {
             </div>
 
             <div v-if="activeTab === 'travel'"
-                class="bg-white rounded-[32px] min-h-[200px] p-6 lg:p-10 shadow-sm animate-in fade-in slide-in-from-bottom-4 duration-500">
+                class="bg-white rounded-2xl min-h-50 p-6 lg:p-10 animate-in fade-in slide-in-from-bottom-4 duration-500">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-end">
 
                     <div class="lg:col-span-1 space-y-3">

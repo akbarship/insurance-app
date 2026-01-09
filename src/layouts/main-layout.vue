@@ -6,11 +6,7 @@
 
         <!-- Page content -->
         <main class="flex-1">
-            <div class="max-w-325 mx-auto px-4 py-8">
-                <router-view />
-            </div>
-            <slider />
-
+            <router-view />
         </main>
 
         <!-- Footer -->
