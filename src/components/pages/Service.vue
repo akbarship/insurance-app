@@ -22,7 +22,7 @@
                     Rasmiylashtirish
                 </button>
                 <img :src="SecurityPng"
-                    class="absolute right-[-20px] bottom-[-10px] md:right-4 md:bottom-4 w-40 md:w-64 opacity-20 md:opacity-100 object-contain pointer-events-none" />
+                    class="absolute right-[-20px] bottom-[-214] lg:bottom-[-10px] md:right-4 md:bottom-4 w-40 md:w-64 opacity-20 md:opacity-100 object-contain pointer-events-none" />
             </div>
 
             <div

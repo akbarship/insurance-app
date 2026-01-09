@@ -32,7 +32,7 @@
 
                 <div class="flex flex-col items-center md:items-start text-center md:text-start">
                     <h4 class="text-gray-900 font-bold mb-6 text-lg">Aloqa uchun</h4>
-                    <ul class="space-y-5 flex items-start flex-col">
+                    <ul class="space-y-5 flex items-center lg:items-start flex-col">
                         <li class="flex items-center gap-3 group cursor-pointer">
 
                             <span class="text-gray-600 font-medium group-hover:text-blue-600 transition-colors">Onlayn
