@@ -28,10 +28,11 @@
             <div
                 class="lg:col-span-5 bg-[#1a1c23] rounded-[32px] md:rounded-[40px] p-6 md:p-10 text-white flex flex-col justify-between shadow-sm">
                 <div class="z-10">
-                    <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">KASKO Sug'urtasi</h3>
+                    <h3 class="text-xl md:text-2xl font-bold mb-3 md:mb-4">Sug‘urta nima?</h3>
                     <p class="text-gray-400 text-sm md:text-base font-medium leading-relaxed">
-                        Mashinani YTH, olib qochilish, yong‘in, tabiiy ofat va boshqa risklardan sug‘urtalang.
-                    </p>
+                        Sug‘urta – bu sizni kutilmagan vaziyatlardan himoya qiluvchi moliyaviy himoya vositasi.
+                        Avtomobil, uy, hayot yoki sog‘liq kabi sohalarda sug‘urta sizga xotirjamlik va moliyaviy
+                        xavfsizlik beradi. </p>
                     <div class="flex items-end gap-1.5 md:gap-2 mt-8 md:mt-12 h-20 md:h-24">
                         <div v-for="h in [40, 60, 30, 100, 50, 80]" :key="h" :style="{ height: h + '%' }"
                             class="flex-1 bg-gray-700 rounded-sm transition-all duration-500"
@@ -48,13 +49,12 @@
                 class="lg:col-span-full bg-white rounded-[32px] md:rounded-[40px] p-6 md:p-10 flex flex-col justify-between min-h-[380px] md:min-h-[400px] relative overflow-hidden shadow-sm border border-gray-50">
                 <div class="max-w-full lg:max-w-3xl z-10">
                     <h3 class="text-2xl md:text-3xl font-bold mb-3 md:mb-4 leading-tight">
-                        Turistik sug’urtasini nega rasmiylashtirish kerak?
+                        E-OSAGO sug‘urtasini nega rasmiylashtirish kerak?
                     </h3>
                     <p class="text-gray-500 text-sm md:text-base font-medium leading-relaxed">
-                        Travel polisi – bu boshqa davlat hududida boʻlganingizda turli xavflardan moliyaviy himoya
-                        hisoblanadi.
-                        Polis sizning xotirjamligingizni kafolatlaydi va mablagʻingizni kutilmagan xarajatlardan
-                        tejaydi.
+                        E-OSAGO – avtomobil egalari uchun majburiy sug‘urta polisining onlayn versiyasi. Polisni bir
+                        necha daqiqada rasmiylashtiring, hujjatlarni elektron tarzda yuboring va hodisa yuz bersa tezkor
+                        to‘lov oling. Qog‘ozbozlik yo‘q, ofisga borish shart emas.
                     </p>
                 </div>
                 <button
@@ -62,7 +62,7 @@
                     Rasmiylashtirish
                 </button>
                 <img :src="TravelPng"
-                    class="absolute right-[-40px] md:right-10 bottom-0 md:bottom-4 w-64 md:w-80 lg:w-[450px] opacity-15 md:opacity-100 object-contain pointer-events-none" />
+                    class="absolute right-[-40px] md:right-10 bottom-0 md:bottom-4 w-64  lg:w-95 opacity-15 md:opacity-100 object-contain pointer-events-none" />
             </div>
         </div>
     </section>
@@ -71,6 +71,6 @@
 
 <script setup>
 import SecurityPng from '@/assets/security.png'
-import TravelPng from '@/assets/travvell.png'
+import TravelPng from '@/assets/banner.webp'
 
 </script>
